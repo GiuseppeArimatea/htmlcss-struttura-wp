@@ -4,21 +4,40 @@
   padding: 0;
 }
 
-.body {
-
+body {
+  background-image: url(http://4.bp.blogspot.com/-BseFz38feik/UwTOH0sTiMI/AAAAAAAAfXg/7k37ThUrNCE/s1600/Descargar+Increibles+fondos+abstractos+HD+%2528223%2529.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+header {
+  height: 500px;
+  background-image: url(https://www.boschiromagnoli.it/wp-content/uploads/2017/05/luna_alberi_boschiromagnoli_web_wm.jpg);
+  margin-bottom: 24px;
+  border: 10px solid white;
+  margin: 10px 24%;
+}
+
+.title {
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    border: solid 4px white;
+    top: 24%;
+    right: 42%;
+}
+
+.title > h1 {
+font-size: 56px;
+color: white;
+margin:10px;
+}
+
 .page {
-  background-color: transparent;
   width: 1000px;
   margin:20px auto;
 }
 
-
-header {
-  height: 500px;
-  background-color: red;
-  margin-bottom: 24px;
-}
 
 main {
   margin-bottom: 24px;
@@ -28,11 +47,6 @@ main::after {
   content:"";
   display: table;
   clear: both;
-}
-
-footer {
-  height: 150px;
-  background-color: lightblue;
 }
 
 .col {
@@ -46,17 +60,23 @@ footer {
 
 }
 .col-left {
-  background-color: green;
+  background-color: white;
 }
 
 .col-center {
   width: 50%;
   margin-left: 5%;
   margin-right: 5%;
-  background-color: yellow;
+  background-color: white;
 }
 .widget {
   height: 305px;
-  background-color: green;
+  background-color: white;
   margin-bottom: 24px;
+}
+
+
+footer {
+  height: 150px;
+  background-color: lightblue;
 }
