@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+
+}
+.page {
+  background-color: transparent;
+  width: 1000px;
+  margin:20px auto;
+}
+
+
+header {
+  height: 500px;
+  background-color: red;
+  margin-bottom: 24px;
+}
+
+main {
+  margin-bottom: 24px;
+
+}
+main::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+footer {
+  height: 150px;
+  background-color: lightblue;
+}
+
+.col {
+  float: left;
+  padding:3px;
+
+}
+
+.col-left, .col-right {
+  width: 20%;
+
+}
+.col-left {
+  background-color: green;
+}
+
+.col-center {
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: yellow;
+}
+.widget {
+  height: 305px;
+  background-color: green;
+  margin-bottom: 24px;
+}
